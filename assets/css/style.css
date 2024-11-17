@@ -50,7 +50,7 @@ h6 {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: #000000;
 }
 
 h1.ml8 {
@@ -1569,11 +1569,17 @@ section .container {
 }
 
 #loading {
-    background: black url("../img/loader/loader1.gif") no-repeat center center;
+    background: #71797e url("../img/loader/ezgif-3-8eacb82499.gif") no-repeat center center;
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     z-index: 9999999;
+}
+
+@media (max-width: 480px) {
+    #loading {
+        background-size: 100px;
+    }
 }
