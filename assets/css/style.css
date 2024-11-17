@@ -12,7 +12,7 @@ body {
 body::before {
     content: "";
     position: fixed;
-    background: #040404 url("../img/background/landscape wallpaper desktop aesthetic - {4k}.jpeg") top left no-repeat;
+    background: #040404 url("../img/background/4K.jpg") top left no-repeat;
     background-size: cover;
     left: 0;
     right: 0;
